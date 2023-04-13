@@ -1,0 +1,2 @@
+- Start Apache in XAMPP (to avoid CORS Policy) 
+- Open by http://localhost/web/PetsWeb/inicio.html
