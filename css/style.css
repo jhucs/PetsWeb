@@ -1,7 +1,12 @@
 img {
-	margin-left: auto;
-	margin-right: auto;
-}
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+    display:block;
+    margin:auto;
+    }
+
+
 
 .leftMenuBar {
 	padding: 15px;
