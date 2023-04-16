@@ -1,0 +1,32 @@
+.leftMenuBar {
+	padding: 10px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 10;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	background-color: #9d274c;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+
+    box-shadow: 0 10px 10px #502d54;
+}
+
+.btn.btn-secondary{
+	background-color: #9d274c;
+	color: #9d274c;
+}
+
+.leftImages {
+	width: 50;
+}
+
+.btn-group-vertical>button {
+	margin-bottom: 10px;
+	border-radius: 10px !important;
+}

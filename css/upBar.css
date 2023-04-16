@@ -1,0 +1,42 @@
+.top-bar{
+	background-color: #f37966;
+}
+
+
+.btn.up-button{
+    background-color: #f37966 !important;
+    margin-top: 30;
+}
+
+@font-face{
+    font-family: AntipastoPro-Medium_trial;
+    src: url('../fonts/AntipastoPro-Medium_trial.ttf');
+}
+
+@font-face{
+    font-family: Lato-Regular;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+.top-buttonery{
+    font-family: AntipastoPro-Medium_trial;
+    color:white;
+    font-size: 24px;
+}
+
+.top-title{
+    font-family: AntipastoPro-Medium_trial;
+    color:white;
+    font-size: 40px;
+}
+.top-subtitle{
+    font-family: AntipastoPro-Medium_trial;
+    color:white;
+    font-size: 12px;
+    padding-bottom: 10;
+}
+
+.top-title, top-subtitle {
+    padding-top: 40;
+    margin: -10;
+  }

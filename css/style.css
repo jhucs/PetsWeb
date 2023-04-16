@@ -1,29 +1,25 @@
 .carrouserImg>img {
-	height: 70% !important; 
+	height: 700px !important;
 	width: 100% !important;
 	object-fit: cover;
 	display: block;
 	margin: auto;
+	opacity: 0.7;
+	filter: grayscale(var(--value, 100%));
+	--value: 56%;
 }
 
+.mainImage {
+	height: 400px !important;
+	width: 100% !important;
+	object-fit: cover;
+	left: 0;
+	filter: grayscale(var(--value, 100%));
+	--value: 56%;
+}
 
-
-
-.leftMenuBar {
-	padding: 15px;
-	overflow: hidden;
-	position: absolute;
-	z-index: 10;
-	top: 50%;
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
-
-	background-color: #224562;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	border-top-right-radius: 25px;
-	border-bottom-right-radius: 25px;
+.carrousel-class {
+	width: 100% !important;
 }
 
 .primary-content {
@@ -31,11 +27,51 @@
 	z-index: 0;
 }
 
-.leftImages {
-	width: 50;
+body {
+	margin: 0;
 }
 
-.btn-group-vertical>button {
-	margin-bottom: 10px;
-	border-radius: 10px !important;
+.col-lg-12 {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.col-xs-4 {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.col-xs-8 {
+	padding-top: 80;
+}
+
+.row {
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.woman-title {
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	font-family: AntipastoPro-Medium_trial;
+	color: white;
+	font-size: 34;
+	text-align: center;
+}
+
+.woman-text {
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	font-family: Lato-Regular;
+	color: white;
 }
