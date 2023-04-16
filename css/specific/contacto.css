@@ -1,0 +1,15 @@
+h2 {
+    font-family: AntipastoPro-Medium_trial;
+    color: white;
+    font-size: 30px;
+}
+
+label {
+    font-family: AntipastoPro-Light_trial;
+    color: white;
+    font-size: 20px;
+}
+
+.form-control {
+    background-color: #ffffff;
+}

@@ -56,6 +56,14 @@ body {
 	margin-left: 0px;
 }
 
+#wrapper {
+	min-height: 100%;
+	position: relative;
+  }
+
+  #content {
+	padding-bottom: 50px; /* la altura del footer */
+  }
 
 .woman-title {
 	justify-content: center;
