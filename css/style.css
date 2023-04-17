@@ -1,34 +1,34 @@
 .carrouserImg>img {
-	height: 700px !important;
-	width: 100% !important;
-	object-fit: cover;
-	display: block;
-	margin: auto;
-	opacity: 0.7;
-	filter: grayscale(var(--value, 100%));
-	--value: 56%;
+height: 700px !important;
+width: 100% !important;
+object-fit: cover;
+display: block;
+margin: auto;
+opacity: 0.7;
+filter: grayscale(var(--value, 100%));
+--value: 56%;
 }
 
 .mainImage {
-	height: 400px !important;
-	width: 100% !important;
-	object-fit: cover;
-	left: 0;
-	filter: grayscale(var(--value, 100%));
-	--value: 56%;
+height: 400px !important;
+width: 100% !important;
+object-fit: cover;
+left: 0;
+filter: grayscale(var(--value, 100%));
+--value: 56%;
 }
 
 .carrousel-class {
-	width: 100% !important;
+width: 100% !important;
 }
 
 .primary-content {
-	position: relative;
-	z-index: 0;
+position: relative;
+z-index: 0;
 }
 
 body {
-	margin: 0;
+margin: 0;
 }
 
 .col-lg-12 {
@@ -82,4 +82,37 @@ body {
 	text-align: center;
 	font-family: Lato-Regular;
 	color: white;
+}
+
+.nosotros-title {
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	font-family: AntipastoPro-Medium_trial;
+	color: white;
+	padding-left: 110px;
+	font-size: 50;
+
+}
+.nosotros-title2 {
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	font-family: AntipastoPro-Medium_trial;
+	color: white;
+	padding-left: 110px;
+	font-size: 40;
+
+}
+
+.nosotros-text {
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: left;
+	max-width: 85%;
+	font-family: Lato-Regular;
+	color: white;
+	font-size: 20;
+	padding-left: 110px;
 }
